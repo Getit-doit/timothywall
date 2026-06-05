@@ -187,14 +187,15 @@ a {
   justify-content: center;
   width: 44px;
   height: 44px;
+  flex: 0 0 auto;
+}
+
+.brand-mark img {
+  display: block;
+  width: 44px;
+  height: 44px;
   border-radius: 13px;
-  background: linear-gradient(140deg, var(--dark-1), var(--dark-2));
-  color: #fff;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.45rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 8px 18px rgba(11, 18, 32, 0.22);
+  box-shadow: 0 8px 18px rgba(11, 18, 32, 0.22);
 }
 
 .brand-copy {

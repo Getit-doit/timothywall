@@ -1,0 +1,27 @@
+<svg viewBox="0 0 48 48" width="48" height="48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tim Wall Insurance Agency LLC">
+  <defs>
+    <linearGradient id="tw-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16213d"/>
+    </linearGradient>
+    <radialGradient id="tw-glow" cx="0.5" cy="0.08" r="0.95">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tw-clip">
+      <rect x="1" y="1" width="46" height="46" rx="13"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tw-clip)">
+    <rect x="1" y="1" width="46" height="46" fill="url(#tw-bg)"/>
+    <rect x="1" y="1" width="46" height="46" fill="url(#tw-glow)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="12.5" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <!-- "TW" in Space Grotesk 700, outlined from the real typeface (matches the wordmark) -->
+  <g fill="#ffffff">
+    <path d="M12.51639344262295 33.10655737704918V18.844262295081965H7.5V15.893442622950818H20.778688524590166V18.844262295081965H15.762295081967213V33.10655737704918Z"/>
+    <path d="M22.15573770491803 33.10655737704918 19.89344262295082 15.893442622950818H23.114754098360656L24.786885245901637 30.844262295081965H25.229508196721312L27.39344262295082 15.893442622950818H33.0L35.1639344262295 30.844262295081965H35.60655737704918L37.278688524590166 15.893442622950818H40.5L38.23770491803279 33.10655737704918H32.631147540983605L30.418032786885245 17.811475409836063H29.975409836065573L27.76229508196721 33.10655737704918Z"/>
+  </g>
+</svg>

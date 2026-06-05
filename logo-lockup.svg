@@ -1,0 +1,33 @@
+<svg viewBox="0 0 252 48" width="252" height="48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tim Wall Insurance Agency LLC">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=IBM+Plex+Mono:wght@600&amp;display=swap');
+      .wm  { font-family: 'Space Grotesk', Arial, sans-serif; font-weight: 700; fill: #0b1220; letter-spacing: -0.5px; }
+      .sub { font-family: 'IBM Plex Mono', 'Courier New', monospace; font-weight: 600; fill: #5d6b85; letter-spacing: 1.6px; }
+    </style>
+    <linearGradient id="lk-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16213d"/>
+    </linearGradient>
+    <radialGradient id="lk-glow" cx="0.5" cy="0.08" r="0.95">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="lk-clip"><rect x="1" y="1" width="46" height="46" rx="13"/></clipPath>
+  </defs>
+
+  <!-- mark (real Space Grotesk TW) -->
+  <g clip-path="url(#lk-clip)">
+    <rect x="1" y="1" width="46" height="46" fill="url(#lk-bg)"/>
+    <rect x="1" y="1" width="46" height="46" fill="url(#lk-glow)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="12.5" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <g fill="#ffffff">
+    <path d="M12.51639344262295 33.10655737704918V18.844262295081965H7.5V15.893442622950818H20.778688524590166V18.844262295081965H15.762295081967213V33.10655737704918Z"/>
+    <path d="M22.15573770491803 33.10655737704918 19.89344262295082 15.893442622950818H23.114754098360656L24.786885245901637 30.844262295081965H25.229508196721312L27.39344262295082 15.893442622950818H33.0L35.1639344262295 30.844262295081965H35.60655737704918L37.278688524590166 15.893442622950818H40.5L38.23770491803279 33.10655737704918H32.631147540983605L30.418032786885245 17.811475409836063H29.975409836065573L27.76229508196721 33.10655737704918Z"/>
+  </g>
+
+  <!-- wordmark -->
+  <text class="wm"  x="62" y="25" font-size="20">Tim Wall</text>
+  <text class="sub" x="63" y="39" font-size="8.5">INSURANCE AGENCY LLC</text>
+</svg>
